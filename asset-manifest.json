@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-photowall/static/css/main.a4bcf1f8.chunk.css",
+    "main.js": "/react-photowall/static/js/main.d55047f3.chunk.js",
+    "main.js.map": "/react-photowall/static/js/main.d55047f3.chunk.js.map",
+    "runtime-main.js": "/react-photowall/static/js/runtime-main.2541501f.js",
+    "runtime-main.js.map": "/react-photowall/static/js/runtime-main.2541501f.js.map",
+    "static/js/2.d9237176.chunk.js": "/react-photowall/static/js/2.d9237176.chunk.js",
+    "static/js/2.d9237176.chunk.js.map": "/react-photowall/static/js/2.d9237176.chunk.js.map",
+    "index.html": "/react-photowall/index.html",
+    "precache-manifest.91ba11bdcfa7f7abbe6b2732bfdbd64e.js": "/react-photowall/precache-manifest.91ba11bdcfa7f7abbe6b2732bfdbd64e.js",
+    "service-worker.js": "/react-photowall/service-worker.js",
+    "static/css/main.a4bcf1f8.chunk.css.map": "/react-photowall/static/css/main.a4bcf1f8.chunk.css.map",
+    "static/media/style.css": "/react-photowall/static/media/speech-bubble-white.5bdca9ea.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2541501f.js",
+    "static/js/2.d9237176.chunk.js",
+    "static/css/main.a4bcf1f8.chunk.css",
+    "static/js/main.d55047f3.chunk.js"
+  ]
+}
