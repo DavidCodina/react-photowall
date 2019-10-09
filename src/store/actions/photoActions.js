@@ -1,15 +1,5 @@
-////////////////////////////////////////////////////////////////////////////////
-//
-//  This file contains all of the photo action creators (i.e., functions)
-//  Action creators return actions, which are objects.
-//  The object always has an type property and almost always has a payload (i.e., data) property.
-//
-////////////////////////////////////////////////////////////////////////////////
-
-
 import { DELETE_PHOTO, ADD_PHOTO, LOAD_PHOTOS } from "./types";
 import { database } from '../../database/config';
-
 
 
 /* ===============================
@@ -47,7 +37,6 @@ export const startLoadingPhotos = () => (dispatch) => {
 =============================== */
 
 
-
 export const addPhoto = (photo) => {
   return { type: ADD_PHOTO, payload: photo };
 };
@@ -71,10 +60,6 @@ export const startAddingPhoto = (photo) => (dispatch) => {
 =============================== */
 
 
-//The tutorial used the index, and not the id.
-//But that's kind of dopey in my opinion.
-//Note this will be imported into...
-//Then we use this.props.dispatch(deletePhoto) to send it to the reducer.
 export const deletePhoto = (id) => {
   return { type: DELETE_PHOTO, payload: id };
 };
